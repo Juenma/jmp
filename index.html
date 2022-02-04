@@ -169,21 +169,22 @@ function showSlides(n) {
   <h2>Formulario</h2>
 </div>
 
-<form name="contacto" netlify>
+<form action="enviar.php" method="post" class="w3-container">
   <p>
   <label>Nombre</label>
-  <input class="w3-input" type="text"></p>
+  <input name="nombre" class="w3-input" type="text" required></p>
   <p>
   <label>Apellido</label>
-  <input class="w3-input" type="text"></p>
+  <input name="apellido" class="w3-input" type="text" required></p>
   <p>
   <label>Email</label>
-  <input class="w3-input" type="text"></p>
+  <input name="email" class="w3-input" type="text"></p>
    <p>
   <label>Mensaje</label>
-  <input class="w3-input" type="text"></p>
- <input type="submit" value="enviar>
+  <textarea name="mensaje" placeholder="escriba aqui"></textarea>
+  <input type="submit" value="enviar" id="boton">
 </form>
+
 
 
 
