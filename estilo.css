@@ -1,0 +1,22 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+
+.botonazo {
+	text-decoration: none;
+}
+
+.costado {
+	border-radius: 15px;
+}
+
+
+.video {
+	width: 100%;
+}
+
+#videoprimero {
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
