@@ -3,12 +3,28 @@ body {font-size: 16px;}
 img {margin-bottom: -8px;}
 .mySlides {display: none;}
 
+
+
 .botonazo {
 	text-decoration: none;
 }
 
 .costado {
-	border-radius: 15px;
+	
+	margin-top: 50px;
+}
+
+.texte {
+	float: left;
+}
+
+#prueba {
+	float: left;
+	margin-left: -500px;
+}
+
+.diseños {
+	padding-top: 80px;
 }
 
 
@@ -19,4 +35,27 @@ img {margin-bottom: -8px;}
 #videoprimero {
 	border-radius: 15px;
 	margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+	.texto {
+		margin-top: 300px;
+	} 
+
+@media (max-width: 768px) {
+	.veo {
+		margin-top: -430px;
+		width: 100%;
+
+	} 
+
+@media (max-width: 768px) {
+	.diseños {
+		margin-top: -40px;
+	} 
+
+@media only screen and (min-width: 900px) {
+  .img { 
+     background-image: url('responsivo.gif'); 
+  }
 }
